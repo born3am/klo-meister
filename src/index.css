@@ -9,9 +9,16 @@ body,
   text-align: center;
   font-family: "Georgia", serif;
   font-size: 1.5rem;
-  background-color: black;
+  background-image: url("./img/wallPaper.jpg");
+  /* background-color: black; */
 
 }
+
+.doorCombo {
+  display: flexbox;
+  text-align: center;
+}
+
 
 button {
   padding: 0.25rem 0.5rem;
@@ -34,4 +41,20 @@ button {
   color: white;
   height: 100vh;
 
+}
+
+
+/* IMAGES */
+.door {
+  width: 15vw;
+}
+
+.wc {
+  margin: 5vh;
+  height: 15vh;
+}
+
+.lightButton {
+  width: 2vw;
+  margin-left: 20px;
 }
