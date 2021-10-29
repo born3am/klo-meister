@@ -9,6 +9,8 @@ body,
   text-align: center;
   font-family: "Georgia", serif;
   font-size: 1.5rem;
+  background-color: black;
+
 }
 
 button {
@@ -23,10 +25,12 @@ button {
 .lit {
   background-color: white;
   color: black;
+  height: 100vh;
+
+
 }
 
 .dark {
-  background-color: black;
   color: white;
   height: 100vh;
 

@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class Room extends Component {
     
     state ={
-        lightOn: true
+        lightOn: false
     };
 
      lightChange =() => {
@@ -18,7 +18,7 @@ export default class Room extends Component {
     render() {
         return (
             <div className={this.state.lightOn ? "lit": " dark"} >
-                <button onClick={this.lightChange} >The room is {this.state.lightOn?"On": "Off"}</button>
+                <button onClick={this.lightChange} >The bathroom switch is {this.state.lightOn?"On": "Off"}</button>
             </div>
         )
     }
