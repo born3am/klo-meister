@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import { NavLink, BrowserRouter, Route, Switch, Link } from "react-router-dom"
 
 import DarkRoom from './Components/DarkRoom'
-import Door from './Components/DoorClosed'
+import DoorOpened from './Components/DoorOpened'
 import Room from './Components/Room'
+import DoorClosed from './Components/DoorClosed'
+
 
 import door from './img/door.png'
 import merkel from './img/merkel.png'
@@ -35,27 +37,18 @@ class App extends Component {
                 <div className='body' >
                     <nav className='navBar'>
                         <ul>
-                            <li> <NavLink activeClassName="selected" to={'/open'} >Ask Merkel</NavLink> </li>
-                            <li>  <NavLink to={'/open'} >Ask Me</NavLink> </li>
-                            <li>  <NavLink to={'/open'} >Door opened</NavLink></li>
-                            <li>  <NavLink to={'/open'} >Door closed</NavLink></li>
+                            <li> <NavLink activeClassName="selected" to={'/merkel'} >Ask Merkel</NavLink> </li>
+                            <li>  <NavLink activeClassName="selected" to={'/me'} >Ask Me</NavLink> </li>
+                            <li>  <NavLink activeClassName="selected" to={'/opened'} >Door opened</NavLink></li>
+                            <li>  <NavLink activeClassName="selected" to={'/closed'} >Door closed</NavLink></li>
                         </ul>
                     </nav>
 
-                    {/* <img className='wc' src={wc} alt="" /> */}
-
-                    <div className='doorCombo'>
-
-                        <img className='merkel' src={merkel} alt="" />
-                        <div> <NavLink to={'/open'} >  <img className='door' src={door} alt="" /> </NavLink> </div>
-                        <div> <NavLink to={'/onoff'} > <img className='lightButton' src={lightButton} alt="" /> </NavLink> </div>
-
-
-                    </div>
+                    <DoorClosed />
                     <div className='floor' ></div>
 
                     <Switch>
-                        <Route exact path="/open" component={Door} />
+                        <Route exact path="/opened" component={DoorOpened} />
                         <Route exact path="/onoff" component={Room} />
                     </Switch>
                 </div>

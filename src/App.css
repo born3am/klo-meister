@@ -22,7 +22,22 @@
     padding-right: 30px;
     text-transform: lowercase;
     width: 12vw;
-    text-align: center;
+    text-align: center; 
 
-    
+}
+
+.navBar ul li a  {
+    text-decoration: none;
+    color: rgb(16,6,6);
+    /* color: rgb(219,37,51); */
+
+}
+
+/* MAIN SECTION */
+
+.wcLight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
 }

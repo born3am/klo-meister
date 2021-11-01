@@ -9,9 +9,7 @@ body {
 }
 
 .body {
-  /* margin-top: -50px;  */
-  padding-top: 0p ;
-  
+
 
   /* css BG template: https://bennettfeely.com/ */
    /* background: repeating-linear-gradient(
@@ -42,7 +40,7 @@ background-blend-mode: multiply; */
 }
 
 .floor {
-  height: 15vh;
+  height: 16vh;
   background-color: beige;
   font-size: 1px;
 }
@@ -89,12 +87,15 @@ button {
 }
 
 .wc {
-  margin: 3vh;
   height: 10vh;
+  margin-left: 20px;
 }
 
-.lightButton {
+#lightButton {
+  width: 5vh;
   height: 5vh;
   margin-left: 20px;
-  align-items: center;
+  margin-bottom: 30vh;
+
+  
 }
