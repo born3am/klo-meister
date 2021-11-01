@@ -1,3 +1,41 @@
+/* RESET */
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  /* text-align: center; */
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  background-image: url("./img/wallPaper.jpg");
+}
+
+/* RESET END */
+
+.body {
+
+
+  /* css BG template: https://bennettfeely.com/ */
+   /* background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 25%,
+    tomato 0,
+    tomato 50%
+  ),
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 25%,
+    dodgerblue 0,
+    dodgerblue 50%
+  ),
+  wheat;
+
+background-size: 10em 10em;
+background-blend-mode: multiply; */
+/* css BG template: https://bennettfeely.com/ */
+}
 
 
 /* NAVBAR */
@@ -35,9 +73,12 @@
 
 /* MAIN SECTION */
 
-.wcLight {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 70vh;
-}
+
+
+
+
+.floor {
+    height: 16vh;
+    background-color: beige;
+    font-size: 1px;
+  }
