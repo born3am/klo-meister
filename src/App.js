@@ -32,7 +32,7 @@ class App extends Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter> 
 
                 <div className='body' >
                     <nav className='navBar'>
