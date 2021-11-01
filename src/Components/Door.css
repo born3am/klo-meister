@@ -12,6 +12,9 @@
     height: 70vh;
     width: 35vh;
     background-color: black;
+    border-top: 20px rgb(189, 180, 59) solid;
+    border-left: 20px rgb(189, 180, 59) solid;
+    border-right: 20px rgb(189, 180, 59) solid;
 }
 
 .doorClosed {
@@ -20,7 +23,13 @@
     height: 70vh;
     width: 35vh;
     background-image: url(../img/door.png);
-    background-size: contain;  
+    background-size: contain;
+    border-top: 20px rgb(189, 180, 59) solid;
+    border-left: 20px rgb(189, 180, 59) solid;
+    border-right: 20px rgb(189, 180, 59) solid;
+    z-index: 8;
+
+
 }
 
 
@@ -31,6 +40,32 @@
     height: 70vh;
 }
 
+
+.lightOn {
+height: 70vh;
+width: 35vh;
+background-color: white;
+background-size: contain;
+display:block;
+position: relative;
+margin-left: 0px;
+z-index: 5;
+
+}
+
+.lightOnImg { 
+display:flex;
+position: relative;
+padding-top: 50px;
+z-index: 5;
+height: 38vh;
+
+}
+
+
+.lightOff, .lightOffImg  {
+display: none;
+}
 
 
 /* IMAGES */

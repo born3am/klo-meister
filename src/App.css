@@ -8,15 +8,14 @@ body {
   font-family: "Georgia", serif;
   font-size: 1.5rem;
   background-image: url("./img/wallPaper.jpg");
+  z-index: 0;
 }
 
 /* RESET END */
 
 .body {
-
-
   /* css BG template: https://bennettfeely.com/ */
-   /* background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     -45deg,
     transparent,
     transparent 25%,
@@ -34,51 +33,43 @@ body {
 
 background-size: 10em 10em;
 background-blend-mode: multiply; */
-/* css BG template: https://bennettfeely.com/ */
+  /* css BG template: https://bennettfeely.com/ */
 }
-
 
 /* NAVBAR */
 .navBar {
 }
 
 .navBar ul {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
 }
-
 
 .navBar ul li {
-    list-style-type: none;
-    color: black;
-    background-color: goldenrod;
-    margin: 20px;
-    border-radius: 40%;
-    padding: 5px ;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-transform: lowercase;
-    width: 12vw;
-    text-align: center; 
-
+  list-style-type: none;
+  color: black;
+  background-color: goldenrod;
+  margin: 20px;
+  border-radius: 40%;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: lowercase;
+  width: 12vw;
+  text-align: center;
 }
 
-.navBar ul li a  {
-    text-decoration: none;
-    color: rgb(16,6,6);
-    /* color: rgb(219,37,51); */
-
+.navBar ul li a {
+  text-decoration: none;
+  color: rgb(16, 6, 6);
+  /* color: rgb(219,37,51); */
 }
 
 /* MAIN SECTION */
 
-
-
-
-
 .floor {
-    height: 16vh;
-    background-color: beige;
-    font-size: 1px;
-  }
+  height: 16vh;
+  background-color: beige;
+  font-size: 1px;
+}

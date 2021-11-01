@@ -10,6 +10,9 @@ import Door from './Components/Door'
 // import lightButton from './img/lightButton.jpg'
 
 import './App.css'
+import Merkel from './Components/Merkel'
+import Me from './Components/Me'
+
 
 class App extends Component {
 
@@ -37,7 +40,6 @@ class App extends Component {
                             <li> <NavLink activeClassName="selected" to={'/merkel'} >Ask Merkel</NavLink> </li>
                             <li>  <NavLink activeClassName="selected" to={'/me'} >Ask Me</NavLink> </li>
 
-                            <li>  <NavLink activeClassName="selected" to={'/closed'} >Light On/Off</NavLink></li>
 
                         </ul>
                     </nav>
@@ -46,8 +48,9 @@ class App extends Component {
                     <div className='floor' ><a href="https://www.vecteezy.com/free-vector/door">Door Vectors by Vecteezy</a></div>
 
                     <Switch>
-                        {/* <Route exact path="/opened" component={Door} />
-                        <Route exact path="/onoff" component={Door} /> */}
+                        <Route exact path="/merkel" component={Merkel} />
+                        <Route exact path="/me" component={Me} />
+
                     </Switch>
                 </div>
             </BrowserRouter>
