@@ -1,0 +1,28 @@
+
+
+/* NAVBAR */
+.navBar {
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+
+.navBar ul li {
+    list-style-type: none;
+    color: black;
+    background-color: goldenrod;
+    margin: 20px;
+    border-radius: 40%;
+    padding: 5px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: lowercase;
+    width: 12vw;
+    text-align: center;
+
+    
+}
