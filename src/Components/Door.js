@@ -28,7 +28,8 @@ export default function Door() {
         };
     
 
-    const lightAction = () => {
+    
+        const lightAction = () => {
         if (lightOn) {
             setLightOn(false);
         } else {
