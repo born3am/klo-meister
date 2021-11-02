@@ -15,6 +15,8 @@
     border-top: 20px rgb(189, 180, 59) solid;
     border-left: 20px rgb(189, 180, 59) solid;
     border-right: 20px rgb(189, 180, 59) solid;
+    z-index: 1;
+
 }
 
 .doorClosed {
@@ -27,7 +29,7 @@
     border-top: 20px rgb(189, 180, 59) solid;
     border-left: 20px rgb(189, 180, 59) solid;
     border-right: 20px rgb(189, 180, 59) solid;
-    z-index: 8;
+    z-index: 2;
 
 
 }
@@ -49,7 +51,7 @@ background-size: contain;
 display:block;
 position: relative;
 margin-left: 0px;
-z-index: 5;
+z-index: -1;
 
 }
 
@@ -57,7 +59,7 @@ z-index: 5;
 display:flex;
 position: relative;
 padding-top: 50px;
-z-index: 5;
+z-index: -1;
 height: 38vh;
 
 }

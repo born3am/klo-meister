@@ -8,7 +8,7 @@ body {
   font-family: "Georgia", serif;
   font-size: 1.5rem;
   background-image: url("./img/wallPaper.jpg");
-  z-index: 0;
+  z-index: -1;
 }
 
 /* RESET END */
