@@ -10,37 +10,35 @@ import Me from './Components/Me/Me'
 import Door from './Components/Door'
 
 
-class App extends Component {
+export default function App() {
 
-    render() {
-        return (
-            <BrowserRouter>
+    return (
+        <BrowserRouter>
 
-                <div className='body' >
-                    <nav className='navBar'>
-                        <ul>
-                            <li> <NavLink activeClassName="selected" to={'/home'} >Home</NavLink> </li>
+            <div className='body' >
+                <nav className='navBar'>
+                    <ul>
+                        <li> <NavLink activeClassName="selected" to={'/home'} >Home</NavLink> </li>
 
-                            <li> <NavLink activeClassName="selected" to={'/merkel'} >Poke Merkel</NavLink> </li>
-                            <li>  <NavLink activeClassName="selected" to={'/me'} >Poke Me</NavLink> </li>
-
-
-                        </ul>
-                    </nav>
+                        <li> <NavLink activeClassName="selected" to={'/merkel'} >Poke Merkel</NavLink> </li>
+                        <li>  <NavLink activeClassName="selected" to={'/me'} >Poke Me</NavLink> </li>
 
 
-                   <Switch>
+                    </ul>
+                </nav>
 
-                        <Route exact path="/home" component={Door} />
-                        <Route exact path="/merkel" component={Merkel} />
-                        <Route exact path="/me" component={Me} />
 
-                    </Switch>
-                    
-                </div>
-            </BrowserRouter>
-        )
-    }
+                <Switch>
+
+                    <Route exact path="/home" component={Door} />
+                    <Route exact path="/merkel" component={Merkel} />
+                    <Route exact path="/me" component={Me} />
+
+                </Switch>
+
+            </div>
+        </BrowserRouter>
+    )
 }
 
-export default App;
+

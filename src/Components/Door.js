@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState, Component } from 'react'
 import { NavLink, BrowserRouter, Route, Switch, Link } from "react-router-dom"
 
 
@@ -14,58 +14,50 @@ import waldo from '../img/waldo-toilet.png'
 import './Door.css'
 
 
-export default class Door extends Component {
+export default function Door() {
 
-    state = {
-        doorOpened: false,
-        lightOn: false
-    };
+    const [doorOpened, setDoorOpened] = useState(false);
+    const [lightOn, setLightOn] = useState(false);
 
-    doorAction = () => {
-        if (this.state.doorOpened) {
-            this.setState({ doorOpened: false });
+
+        const doorAction = () => {
+        if (doorOpened) {
+            setDoorOpened(false);
         } else {
-            this.setState({ doorOpened: true });
+            setDoorOpened(true) };
+        };
+    
+
+    const lightAction = () => {
+        if (lightOn) {
+            setLightOn(false);
+        } else {
+            setLightOn(true);
         }
     };
 
-    lightAction = () => {
-        if (this.state.lightOn) {
-            this.setState({ lightOn: false });
-        } else {
-            this.setState({ lightOn: true });
-        }
-    };
+    return (
 
+        <div>
+            <div className='doorCombo'>
 
-    render() {
-        console.log(this.state.lightOn);
+                <img className='merkel' src={merkel} alt="" />
 
+                <div className={doorOpened ? "doorOpened" : "doorClosed"} onClick={doorAction} >
 
-        return (
+                    {/* {doorOpened ? <img src={} alt="" /> : <img className={""} src={door} alt="" /> } */}
 
-            <div>
-                <div className='doorCombo'>
+                    <div className={lightOn ? "lightOn" : "lightOff"} ><img className={lightOn ? "lightOnImg" : "lightOffImg"} src={waldo} alt="" /></div>
 
-                    <img className='merkel' src={merkel} alt="" />
-
-                    <div className={this.state.doorOpened ? "doorOpened" : "doorClosed"} onClick={this.doorAction} >
-
-                        <div className={this.state.lightOn ? "lightOn" : "lightOff"} ><img className={this.state.lightOn ? "lightOnImg" : "lightOffImg"} src={waldo} alt="" /></div>
-
-                    </div>
-                    <div className='wcLight' >
-                        <img className='wc' src={wc} alt="" />
-                        <img onClick={this.lightAction} id='lightButton' src={lightButton} alt=""></img>
-                    </div>
                 </div>
-                <footer className='floor' ><a href="https://www.vecteezy.com/free-vector/door">Door Vectors by Vecteezy</a>
-                </footer>
+                <div className='wcLight' >
+                    <img className='wc' src={wc} alt="" />
+                    <img onClick={lightAction} id='lightButton' src={lightButton} alt=""></img>
+                </div>
             </div>
-
-
-
-
-        )
-    }
+            <footer className='floor' ><a href="https://www.vecteezy.com/free-vector/door">Door Vectors by Vecteezy</a>
+            </footer>
+        </div>
+    )
 }
+
