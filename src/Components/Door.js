@@ -20,16 +20,17 @@ export default function Door() {
     const [lightOn, setLightOn] = useState(false);
 
 
-        const doorAction = () => {
+    const doorAction = () => {
         if (doorOpened) {
             setDoorOpened(false);
         } else {
-            setDoorOpened(true) };
+            setDoorOpened(true)
         };
-    
+    };
 
-    
-        const lightAction = () => {
+
+
+    const lightAction = () => {
         if (lightOn) {
             setLightOn(false);
         } else {
@@ -43,13 +44,12 @@ export default function Door() {
             <div className='doorCombo'>
 
                 <img className='merkel' src={merkel} alt="" />
-
                 <div className={doorOpened ? "doorOpened" : "doorClosed"} onClick={doorAction} >
-
-                    {/* {doorOpened ? <img src={} alt="" /> : <img className={""} src={door} alt="" /> } */}
-
-                    <div className={lightOn ? "lightOn" : "lightOff"} ><img className={lightOn ? "lightOnImg" : "lightOffImg"} src={waldo} alt="" /></div>
-
+                    {doorOpened &&
+                        <div className={lightOn ? "lightOn" : "lightOff"} >
+                            <img className={lightOn ? "lightOnImg" : "lightOffImg"} src={waldo} alt="" />
+                        </div>
+                    }
                 </div>
                 <div className='wcLight' >
                     <img className='wc' src={wc} alt="" />
