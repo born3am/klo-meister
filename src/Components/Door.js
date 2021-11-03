@@ -8,6 +8,8 @@ import door from '../img/door.png'
 import merkel from '../img/merkel.png'
 import wc from '../img/toilet.jpg'
 import lightButton from '../img/lightButton.jpg'
+import btnOn from '../img/lightbtnOn.png'
+import btnOff from '../img/lightbtnOff.png'
 import waldo from '../img/waldo-toilet.png'
 
 
@@ -53,7 +55,13 @@ export default function Door() {
                 </div>
                 <div className='wcLight' >
                     <img className='wc' src={wc} alt="" />
-                    <img onClick={lightAction} id='lightButton' src={lightButton} alt=""></img>
+                    <div onClick={lightAction} >
+                        {
+                            lightOn ?
+                                <img id='lightButton' src={btnOff} alt=""></img>
+                                : <img id='lightButton' src={btnOn} alt=""></img>
+                        }
+                    </div>
                 </div>
             </div>
             <footer className='floor' ><a href="https://www.vecteezy.com/free-vector/door">Door Vectors by Vecteezy</a>
