@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e3de85ca.chunk.css",
+    "main.js": "./static/js/main.90b0bba3.chunk.js",
+    "main.js.map": "./static/js/main.90b0bba3.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0da5924a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0da5924a.js.map",
+    "static/js/2.8fa4ee1d.chunk.js": "./static/js/2.8fa4ee1d.chunk.js",
+    "static/js/2.8fa4ee1d.chunk.js.map": "./static/js/2.8fa4ee1d.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.e3de85ca.chunk.css.map": "./static/css/main.e3de85ca.chunk.css.map",
+    "static/js/2.8fa4ee1d.chunk.js.LICENSE.txt": "./static/js/2.8fa4ee1d.chunk.js.LICENSE.txt",
+    "static/media/Door.css": "./static/media/door.39083669.png",
+    "static/media/merkel.c85aad8c.png": "./static/media/merkel.c85aad8c.png",
+    "static/media/toilet.0423ec10.jpg": "./static/media/toilet.0423ec10.jpg",
+    "static/media/waldo-toilet.b5c3a06e.png": "./static/media/waldo-toilet.b5c3a06e.png",
+    "static/media/App.css": "./static/media/wallPaper.4ffeb2d7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0da5924a.js",
+    "static/js/2.8fa4ee1d.chunk.js",
+    "static/css/main.e3de85ca.chunk.css",
+    "static/js/main.90b0bba3.chunk.js"
+  ]
+}
