@@ -2,6 +2,9 @@ import React, { useState, Component } from 'react'
 import { NavLink, BrowserRouter, Route, Switch, Link } from "react-router-dom"
 
 
+// fetch: https://catfact.ninja/
+// https://catfact.ninja/facts?max_length=50&limit=100
+
 
 import door from '../img/door.png'
 
