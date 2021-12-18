@@ -1,4 +1,4 @@
-# bathroom-switch-in-germany
+# Klo Master
 Check out here how to turn on the lights when you visit a bathroom in Germany.
 
 
