@@ -2,7 +2,7 @@
   "name": "bathroom-switch-in-germany",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://born3am.github.io/klo-master",
+  "homepage": "https://born3am.github.io/klo-master/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
