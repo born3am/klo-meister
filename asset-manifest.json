@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "./static/css/main.e3de85ca.chunk.css",
-    "main.js": "./static/js/main.90b0bba3.chunk.js",
-    "main.js.map": "./static/js/main.90b0bba3.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.0da5924a.js",
-    "runtime-main.js.map": "./static/js/runtime-main.0da5924a.js.map",
-    "static/js/2.8fa4ee1d.chunk.js": "./static/js/2.8fa4ee1d.chunk.js",
-    "static/js/2.8fa4ee1d.chunk.js.map": "./static/js/2.8fa4ee1d.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.e3de85ca.chunk.css.map": "./static/css/main.e3de85ca.chunk.css.map",
-    "static/js/2.8fa4ee1d.chunk.js.LICENSE.txt": "./static/js/2.8fa4ee1d.chunk.js.LICENSE.txt",
-    "static/media/Door.css": "./static/media/door.39083669.png",
-    "static/media/merkel.c85aad8c.png": "./static/media/merkel.c85aad8c.png",
-    "static/media/toilet.0423ec10.jpg": "./static/media/toilet.0423ec10.jpg",
-    "static/media/waldo-toilet.b5c3a06e.png": "./static/media/waldo-toilet.b5c3a06e.png",
-    "static/media/App.css": "./static/media/wallPaper.4ffeb2d7.jpg"
+    "main.css": "/klo-master/static/css/main.489bc27a.chunk.css",
+    "main.js": "/klo-master/static/js/main.e76432f6.chunk.js",
+    "main.js.map": "/klo-master/static/js/main.e76432f6.chunk.js.map",
+    "runtime-main.js": "/klo-master/static/js/runtime-main.4c2063a8.js",
+    "runtime-main.js.map": "/klo-master/static/js/runtime-main.4c2063a8.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/klo-master/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.f38b4de4.chunk.js": "/klo-master/static/js/2.f38b4de4.chunk.js",
+    "static/js/2.f38b4de4.chunk.js.map": "/klo-master/static/js/2.f38b4de4.chunk.js.map",
+    "index.html": "/klo-master/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/klo-master/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.489bc27a.chunk.css.map": "/klo-master/static/css/main.489bc27a.chunk.css.map",
+    "static/js/2.f38b4de4.chunk.js.LICENSE.txt": "/klo-master/static/js/2.f38b4de4.chunk.js.LICENSE.txt",
+    "static/media/Door.css": "/klo-master/static/media/door.39083669.png",
+    "static/media/merkel.c85aad8c.png": "/klo-master/static/media/merkel.c85aad8c.png",
+    "static/media/question-2.ba0f7823.png": "/klo-master/static/media/question-2.ba0f7823.png",
+    "static/media/toilet.0423ec10.jpg": "/klo-master/static/media/toilet.0423ec10.jpg",
+    "static/media/waldo-toilet.b5c3a06e.png": "/klo-master/static/media/waldo-toilet.b5c3a06e.png",
+    "static/media/App.css": "/klo-master/static/media/wallPaper.4ffeb2d7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0da5924a.js",
-    "static/js/2.8fa4ee1d.chunk.js",
-    "static/css/main.e3de85ca.chunk.css",
-    "static/js/main.90b0bba3.chunk.js"
+    "static/js/runtime-main.4c2063a8.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.f38b4de4.chunk.js",
+    "static/css/main.489bc27a.chunk.css",
+    "static/js/main.e76432f6.chunk.js"
   ]
 }
