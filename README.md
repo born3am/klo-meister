@@ -1,5 +1,5 @@
 # Klo Master
-Check out here how to turn on the lights when you visit a bathroom in Germany.
+Check out here what do you should do to handle a bathroom visit in Germany.
 
 
-![](./src/img/question-mark.jpeg)
+![](./src/img/klo-master.png)
