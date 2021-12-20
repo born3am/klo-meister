@@ -5,8 +5,8 @@ import wc from '../img/toilet.jpg'
 import btnOn from '../img/lightbtnOn.png'
 import btnOff from '../img/lightbtnOff.png'
 import waldo from '../img/waldo-toilet.png'
-import question1 from '../img/question-1.png'
-import question2 from '../img/question-2.png'
+import question1 from '../img/question1.png'
+import question2 from '../img/question2.png'
 
 
 import './Door.css'
