@@ -1,0 +1,93 @@
+/* RESET */
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  /* text-align: center; */
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  background-image: url("./img/wallPaper.jpg");
+}
+
+/* RESET END */
+
+.body {
+  /* css BG template: https://bennettfeely.com/ */
+  /* background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 25%,
+    tomato 0,
+    tomato 50%
+  ),
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 25%,
+    dodgerblue 0,
+    dodgerblue 50%
+  ),
+  wheat;
+
+background-size: 10em 10em;
+background-blend-mode: multiply; */
+  /* css BG template: https://bennettfeely.com/ */
+}
+
+/* NAVBAR */
+.navBar {
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+
+.navBar ul li {
+  list-style-type: none;
+  color: black;
+  /* background-color: goldenrod; */
+  margin: 20px;
+  border-radius: 40%;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: lowercase;
+  width: 12vw;
+  text-align: center;
+
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+  /* color: rgb(219,37,51); */
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.navBar ul li a:hover {  
+  color: #FFFFFF;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.navBar ul li a:active {
+  color: #49ff18;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+
+
+/* MAIN SECTION */
+
+.floor {
+  height: 16%;
+  width: 100%;
+  background-color: beige;
+  font-size: 1px;
+  z-index: 4;
+  
+}
