@@ -1,4 +1,4 @@
-# Klo Master
+# Klo Meister
 Check out here what do you should do to handle a bathroom visit in Germany.
 
 
