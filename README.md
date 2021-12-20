@@ -5,12 +5,19 @@ Click on everything you think is clickable!
 
 ## Built with
 -React
+
 -Javascript
+
 -JSX
+
 -HTML
+
 -CSS
+
 -https://pixelspeechbubble.com (great help for the speech balloons)
+
 -https://vecteezy.com (copyright on some images) 
+
 
 
 ![](./src/img/klo-master.png)
