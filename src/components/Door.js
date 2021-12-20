@@ -79,7 +79,9 @@ export default function Door() {
                     </div>
                 </div>
             </Container>
-            <footer className='floor' ><a href="https://www.vecteezy.com/free-vector/door">Door Vectors by Vecteezy</a>
+            <footer className='floor' >
+                <a href="https://www.vecteezy.com/free-vector/door">Door Vectors by Vecteezy</a>
+                <a href="https://www.freepik.com/photos/background">Background photo created by yingyang - www.freepik.com</a>
             </footer>
         </div>
     )

@@ -18,6 +18,8 @@ Click on everything you think is clickable!
 
 -https://vecteezy.com (copyright on some images) 
 
+-https://freepik.com (copyright on some images)
+
 
 
 ![](./src/img/klo-master.png)

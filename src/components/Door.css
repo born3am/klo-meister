@@ -7,33 +7,31 @@
   justify-content: center;
 }
 
-.doorOpened {
+.doorOpened, .doorClosed {
   margin-left: 60px;
   margin-bottom: -15%;
-
   height: 70vh;
   width: 35vh;
-  background-color: black;
-  border-top: 20px rgb(189, 180, 59) solid;
-  border-left: 20px rgb(189, 180, 59) solid;
-  border-right: 20px rgb(189, 180, 59) solid;
-  z-index: 1;
+  border-top: 20px #e9eedd solid ;
+  border-left: 20px  #e9eedd solid;
+  border-right: 20px #e9eedd solid;
+
+  border-radius: 3%;
+
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 0px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
-.doorClosed {
-  margin-left: 60px;
-  margin-bottom: -15%;
+.doorOpened {
+  z-index: 1;
+  background-color: black;
+} 
 
-  /* margin-bottom: -10px; */
-  height: 70vh;
-  width: 35vh;
+.doorClosed {  
+  z-index: 3;
   background-image: url(../img/door.png);
   background-repeat: no-repeat;
   background-size: contain;
-  border-top: 20px rgb(189, 180, 59) solid;
-  border-left: 20px rgb(189, 180, 59) solid;
-  border-right: 20px rgb(189, 180, 59) solid;
-  z-index: 3;
 }
 
 .wcLight {
@@ -46,13 +44,14 @@
 .lightOn {
   height: 100%;
   width: 100%;
-
   background-color: white;
   background-size: contain;
   display: block;
   position: relative;
   margin-left: 0px;
   z-index: 2;
+
+  
 }
 
 .lightOnImg {
@@ -62,6 +61,7 @@
   padding-top: 50px;
   height: 38vh;
   z-index: 2;
+  
 }
 
 .lightOff,
@@ -85,11 +85,15 @@
   margin-left: -11vw;
   margin-bottom: -20%;
   z-index: 5;
+  
 }
 
 .wc {
+  margin-bottom: -5px;
   height: 10vh;
   margin-left: 30%;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 #lightButton {
@@ -101,4 +105,6 @@
   align-items: center;
   width: 5vh;
   height: 5vh;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }

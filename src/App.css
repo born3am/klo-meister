@@ -12,28 +12,6 @@ body {
 
 /* RESET END */
 
-.body {
-  /* css BG template: https://bennettfeely.com/ */
-  /* background: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 25%,
-    tomato 0,
-    tomato 50%
-  ),
-  repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 25%,
-    dodgerblue 0,
-    dodgerblue 50%
-  ),
-  wheat;
-
-background-size: 10em 10em;
-background-blend-mode: multiply; */
-  /* css BG template: https://bennettfeely.com/ */
-}
 
 /* NAVBAR */
 .navBar {
@@ -86,8 +64,11 @@ background-blend-mode: multiply; */
 .floor {
   height: 16%;
   width: 100%;
-  background-color: beige;
-  font-size: 1px;
+  font-size: 0.1px;
   z-index: 4;
-  
+  background-image: url("./img/floor.jpg") ;
+  background-repeat: repeat;
+  background-size: cover  ;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
