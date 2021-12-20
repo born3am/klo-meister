@@ -1,0 +1,104 @@
+/* MAIN SECTION */
+
+.doorCombo {
+  margin-left:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doorOpened {
+  margin-left: 60px;
+  margin-bottom: -15%;
+
+  height: 70vh;
+  width: 35vh;
+  background-color: black;
+  border-top: 20px rgb(189, 180, 59) solid;
+  border-left: 20px rgb(189, 180, 59) solid;
+  border-right: 20px rgb(189, 180, 59) solid;
+  z-index: 1;
+}
+
+.doorClosed {
+  margin-left: 60px;
+  margin-bottom: -15%;
+
+  /* margin-bottom: -10px; */
+  height: 70vh;
+  width: 35vh;
+  background-image: url(../img/door.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top: 20px rgb(189, 180, 59) solid;
+  border-left: 20px rgb(189, 180, 59) solid;
+  border-right: 20px rgb(189, 180, 59) solid;
+  z-index: 3;
+}
+
+.wcLight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.lightOn {
+  height: 100%;
+  width: 100%;
+
+  background-color: white;
+  background-size: contain;
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  z-index: 2;
+}
+
+.lightOnImg {
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding-top: 50px;
+  height: 38vh;
+  z-index: 2;
+}
+
+.lightOff,
+.lightOffImg {
+  display: none;
+  z-index: 2;
+}
+
+/* IMAGES */
+
+.question {
+  height: 10vh;
+  position: absolute;
+  top: 25%;
+  right: 65%;
+  z-index: 100;
+}
+
+.merkel {
+  height: 60vh;
+  margin-left: -11vw;
+  margin-bottom: -20%;
+  z-index: 5;
+}
+
+.wc {
+  height: 10vh;
+  margin-left: 30%;
+}
+
+#lightButton {
+  position: absolute;
+  margin-top: 40vh;
+  margin-left: 15px;
+  
+  justify-content: center;
+  align-items: center;
+  width: 5vh;
+  height: 5vh;
+}
