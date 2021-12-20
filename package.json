@@ -43,7 +43,6 @@
   },
   "description": "Check out here what do you should do to handle a bathroom visit in Germany.",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/born3am/klo-meister.git"
