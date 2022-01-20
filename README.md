@@ -22,4 +22,4 @@ Click on everything you think is clickable!
 
 
 
-![](./src/img/klo-master.png)
+![](./src/img/merkel-klo.png)
