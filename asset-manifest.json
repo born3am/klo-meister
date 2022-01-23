@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/klo-meister/static/css/main.7afeb461.chunk.css",
+    "main.css": "/klo-meister/static/css/main.b46769e8.chunk.css",
     "main.js": "/klo-meister/static/js/main.d58f025d.chunk.js",
     "main.js.map": "/klo-meister/static/js/main.d58f025d.chunk.js.map",
     "runtime-main.js": "/klo-meister/static/js/runtime-main.3b923d87.js",
@@ -10,7 +10,7 @@
     "static/js/2.e50c438d.chunk.js.map": "/klo-meister/static/js/2.e50c438d.chunk.js.map",
     "index.html": "/klo-meister/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/klo-meister/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.7afeb461.chunk.css.map": "/klo-meister/static/css/main.7afeb461.chunk.css.map",
+    "static/css/main.b46769e8.chunk.css.map": "/klo-meister/static/css/main.b46769e8.chunk.css.map",
     "static/js/2.e50c438d.chunk.js.LICENSE.txt": "/klo-meister/static/js/2.e50c438d.chunk.js.LICENSE.txt",
     "static/media/Door.css": "/klo-meister/static/media/door.39083669.png",
     "static/media/App.css": "/klo-meister/static/media/wallPaper.4ffeb2d7.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.3b923d87.js",
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.e50c438d.chunk.js",
-    "static/css/main.7afeb461.chunk.css",
+    "static/css/main.b46769e8.chunk.css",
     "static/js/main.d58f025d.chunk.js"
   ]
 }
