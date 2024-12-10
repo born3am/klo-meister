@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, NavLink, Route} from "react-router-dom"
+import { Routes, NavLink, Route} from "react-router"
 
 import './App.css'
 import Merkel from './components/Merkel/Merkel'
@@ -24,7 +24,6 @@ export default function App() {
                 </ul>
                 </Container>
             </nav>
-
 
             <Routes>
 
