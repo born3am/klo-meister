@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+/* eslint-disable no-unused-vars */
+import { useState } from "react";
+
+import Container from "react-bootstrap/Container";
 
 import btnOff from "../img/lightbtnOff.png";
 import btnOn from "../img/lightbtnOn.png";
@@ -11,7 +14,6 @@ import waldo from "../img/waldo-toilet.png";
 import "./Door.css";
 
 import "bootstrap/dist/css/bootstrap.css";
-import Container from "react-bootstrap/Container";
 
 export default function Door() {
   const [doorOpened, setDoorOpened] = useState(false);

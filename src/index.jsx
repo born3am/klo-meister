@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { createRoot } from "react-dom/client";
 import { HashRouter } from "react-router";
 

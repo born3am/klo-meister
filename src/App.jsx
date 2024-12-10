@@ -1,5 +1,5 @@
-import React from "react";
-
+/* eslint-disable no-unused-vars */
+import Container from "react-bootstrap/Container";
 import { Routes, NavLink, Route } from "react-router";
 
 import "./App.css";
@@ -9,7 +9,6 @@ import Merkel from "./components/Merkel/Merkel";
 import NotFound from "./components/NotFound.js/NotFound";
 
 import "bootstrap/dist/css/bootstrap.css";
-import Container from "react-bootstrap/Container";
 
 export default function App() {
   return (

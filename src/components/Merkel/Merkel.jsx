@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./Merkel.css";
 
 export default function Merkel() {

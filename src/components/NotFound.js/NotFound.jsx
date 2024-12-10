@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable no-unused-vars */
 
 import { useLocation } from "react-router";
 import "./NotFound.css";
