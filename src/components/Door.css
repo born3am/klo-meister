@@ -1,33 +1,40 @@
 /* MAIN SECTION */
 
 .doorCombo {
-  margin-left:0px;
+  margin-left: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.doorOpened, .doorClosed {
+.doorOpened,
+.doorClosed {
   margin-left: 60px;
   margin-bottom: -15%;
   height: 70vh;
   width: 35vh;
-  border-top: 20px #e9eedd solid ;
-  border-left: 20px  #e9eedd solid;
+  border-top: 20px #e9eedd solid;
+  border-left: 20px #e9eedd solid;
   border-right: 20px #e9eedd solid;
 
   border-radius: 3%;
 
-  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: 5px 0px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  -webkit-box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow:
+    5px 0px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .doorOpened {
   z-index: 1;
   background-color: black;
-} 
+}
 
-.doorClosed {  
+.doorClosed {
   z-index: 3;
   background-image: url(../img/door.png);
   background-repeat: no-repeat;
@@ -50,8 +57,6 @@ box-shadow: 5px 0px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15p
   position: relative;
   margin-left: 0px;
   z-index: 2;
-
-  
 }
 
 .lightOnImg {
@@ -61,7 +66,6 @@ box-shadow: 5px 0px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15p
   padding-top: 50px;
   height: 38vh;
   z-index: 2;
-  
 }
 
 .lightOff,
@@ -85,26 +89,37 @@ box-shadow: 5px 0px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15p
   margin-left: -11vw;
   margin-bottom: -20%;
   z-index: 5;
-  
 }
 
 .wc {
   margin-bottom: -5px;
   height: 10vh;
   margin-left: 30%;
-  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  -webkit-box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 #lightButton {
   position: absolute;
   margin-top: 40vh;
   margin-left: 15px;
-  
+
   justify-content: center;
   align-items: center;
   width: 5vh;
   height: 5vh;
-  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  -webkit-box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }

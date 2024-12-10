@@ -4,9 +4,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: ['main', 'master']
+    branches: ["main", "master"]
   pull_request:
-    branches: ['main', 'master']
+    branches: ["main", "master"]
 
 jobs:
   build:
@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
@@ -37,7 +37,7 @@ jobs:
 
       - name: Check stylelint compliance
         run: npm run stylelint --if-present
-      
+
       - name: Check lint compliance
         run: npm run lint --if-present
 
@@ -46,6 +46,6 @@ jobs:
 
       - name: TypeScript Type Check
         run: npm run type-check --if-present
-      
+
       - name: Run unit tests
         run: npm test --if-present

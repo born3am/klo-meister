@@ -2,30 +2,27 @@
   "name": "klo-meister",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "homepage": "https://born3am.github.io/klo-meister/",
-  "dependencies": {
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^14.5.2",
-    "@vitejs/plugin-react": "^4.3.4",
-    "bootstrap": "^5.1.3",
-    "react": "^19.0.0",
-    "react-bootstrap": "^2.0.3",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.0.2"
+  "description": "Check out here what do you should do to handle a bathroom visit in Germany.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/born3am/klo-meister.git"
   },
+  "author": "born3am",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "deploy": "gh-pages -d build",
+    "lint": "eslint -c eslint.config.js --cache .",
+    "lint:fix": "npm run lint -- --no-cache --fix",
+    "prettier": "prettier --check --cache --no-error-on-unmatched-pattern '**/*.md' '**/*.yml' '**/*.json' '**/*.html' '**/*.css' '**/*.scss' '**/*.sass' '**/*.less'",
+    "prettier:fix": "npm run prettier -- --no-cache --write",
+    "fix": "npm run prettier:fix ; npm run lint:fix"
   },
   "browserslist": {
     "production": [
@@ -39,18 +36,21 @@
       "last 1 safari version"
     ]
   },
-  "description": "Check out here what do you should do to handle a bathroom visit in Germany.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/born3am/klo-meister.git"
-  },
-  "author": "born3am",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/born3am/klo-meister/issues"
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^14.5.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "bootstrap": "^5.1.3",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.0.3",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.0.2"
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "@born3am/eslint-config": "^1.1.1",
+    "@born3am/prettier-config": "^1.0.1",
+    "gh-pages": "^6.2.0",
+    "vite": "^6.0.2"
   }
 }
