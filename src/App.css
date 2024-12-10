@@ -40,22 +40,43 @@ body {
   text-decoration: none;
   color: white;
   /* color: rgb(219,37,51); */
-  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
-    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
-    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px, 2px 2px 2px rgba(206, 89, 55, 0);
+  text-shadow:
+    #fff 0px 0px 5px,
+    #fff 0px 0px 10px,
+    #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px,
+    #ff2d95 0px 0px 30px,
+    #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px,
+    #ff2d95 0px 0px 75px,
+    2px 2px 2px rgba(206, 89, 55, 0);
   transition: all 0.5s ease-in-out;
 }
 
 .navBar ul li a:hover {
   color: #ffffff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
-    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #49ff18,
+    0 0 30px #49ff18,
+    0 0 40px #49ff18,
+    0 0 55px #49ff18,
+    0 0 75px #49ff18;
 }
 
 .navBar ul li a:active {
   color: #49ff18;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
-    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #49ff18,
+    0 0 30px #49ff18,
+    0 0 40px #49ff18,
+    0 0 55px #49ff18,
+    0 0 75px #49ff18;
 }
 
 /* MAIN SECTION */
@@ -68,8 +89,12 @@ body {
   background-image: url("./img/floor.png");
   background-repeat: repeat;
   background-size: cover;
-  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  -webkit-box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
