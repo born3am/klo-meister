@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/klo-meister/',
+  base: "/klo-meister/",
   build: {
     outDir: "dist",
   },
