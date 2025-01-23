@@ -2,32 +2,34 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     open-pull-requests-limit: 5
     schedule:
-      interval: "monthly"
-      day: "wednesday"
-      time: "10:00"
-      timezone: "Europe/Berlin"
-    assignees: ["born3am"] # Assign PRs to a specific user or team
+      interval: 'monthly'
+      day: 'tuesday'
+      time: '10:00'
+      timezone: 'Europe/Berlin'
+    assignees: ['born3am'] # Assign PRs to a specific user or team
     commit-message:
-      prefix: "chore" # PR title prefix
-      include: "scope"
+      prefix: 'chore' # PR title prefix
+      include: 'scope'
     groups:
-      minor-updates:
-        applies-to: version-updates
-        update-types:
-          - "patch" # Group all patch updates together
+      minor-and-patch-updates:
+        patterns:
+          - '*' # Apply to all dependencies
+        update-types: # Update types to consider
+          - 'patch'
+          - 'minor'
     versioning-strategy: increase-if-necessary
     ignore:
-      - dependency-name: "*"
+      - dependency-name: '*'
         versions:
-          - "alpha"
-          - "beta"
-          - "canary"
-          - "dev"
-          - "experimental"
-          - "legacy"
-          - "next"
-          - "nightly"
+          - 'alpha'
+          - 'beta'
+          - 'canary'
+          - 'dev'
+          - 'experimental'
+          - 'legacy'
+          - 'next'
+          - 'nightly'
